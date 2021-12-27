@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+      <title>Portfolio Web Page</title>
+   </head>
+   <body>
+      <!-- nav bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+         <div class="container">
+            <a href="#" class="navbar-brand">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item me-5">
+                     <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li>
+                     <a class="nav-link me-5" href="#projects">Projects</a>
+                  </li>
+                  <li>
+                     <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- section 1 -->
+      <section class="section-1 text-light p-5 p-lg-0 p-lg-5" id="about">
+         <div class="container hero mt-4">
+            <img class="" src="shapes.jpg" alt="shapes">
+            <h1 class="headline">Shauna Mohan</h1>
+            <p class="headline-2 d-none d-md-block">Web Developer</p>
+         </div>
+      </section>
+      <div class="slider"></div>
+      <!-- section 2 -->
+      <section class="section-2 container text-center" id="projects">
+         <h1 class="mt-5 mb-5">Projects</h1>
+         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <a href="https://codepen.io/s_mohan/pen/PoJbjMY" target="blank">
+                  <img src="image-1.png" class="d-block img-1 mb-5" alt="...">
+                  </a>
+                  <div class="carousel-caption mt-5 mb-5 d-none d-md-block">
+                     <h5>Responsive Web Page</h5>
+                     <p>HTML5 - CSS</p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <a href="https://codepen.io/s_mohan/pen/abLVGOM" target="blank">
+                  <img src="image-3.png" class="d-block img-2 mb-5" alt="...">
+                  </a>
+                  <div class="carousel-caption mt-5 mb-5  d-none d-md-block">
+                     <h5>Responsive Web Page</h5>
+                     <p>HTML5 - CSS</p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <a href="https://codepen.io/s_mohan/pen/mdBOwYY" target="blank">
+                  <img src="image-2.png" class="d-block img-3 mb-5" alt="...">
+                  </a>
+                  <div class="carousel-caption mt-5 mb-5 d-none d-md-block">
+                     <h5>Form</h5>
+                     <p>HTML5 - CSS - jQuery</p>
+                  </div>
+               </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+         </div>
+      </section>
+      <!-- footer -->
+      <section class="container mt-5">
+         <footer class="p-5 text-center" id="contact">
+            <div class="col-12">
+               <div class="row justify-content-center">
+                  <div class="col-lg-1 col-2">
+                     <a href="https://github.com/shaunamohan" target="blank" class="bottom-0 end-0 p-5">
+                     <i class="h1 bi bi-github h3"></i>
+                     </a>
+                  </div>
+                  <div class="col-lg-1 col-2">
+                     <a href="https://codepen.io/s_mohan" target="blank" class="bottom-0 end-0 p-5">
+                     <i class="bi bi-code-square h3"></i>
+                     </a>
+                  </div>
+                  <div class="col-lg-1 col-2">
+                     <a href="https://www.linkedin.com/in/shauna-mohan/" target="blank" class="bottom-0 end-0 p-5">
+                     <i class="bi bi-linkedin h3"></i>
+                     </a>
+                  </div>
+                  <div class="col-lg-1 col-2">
+                     <a href="mailto:shauna.mohan@outlook.com" target="blank" class="bottom-0 end-0 p-5">
+                     <i class="bi bi-envelope h3"></i>
+                     </a> 
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </section>
+      <!-- footer end -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js" integrity="sha512-lJDBw/vKlGO8aIZB8/6CY4lV+EMAL3qzViHid6wXjH/uDrqUl+uvfCROHXAEL0T/bgdAQHSuE68vRlcFHUdrUw==" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="app.js"></script>
+   </body>
+</html>
