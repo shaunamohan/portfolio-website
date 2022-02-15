@@ -20,6 +20,7 @@ body
 	font-size:15px;
 }
 
+
 h1
 {
 	color:#FFF;
@@ -52,6 +53,13 @@ html,body
 	background-color: #228B22;
 
 }
+
+.img-4
+{
+	background-color: #FF0000;
+
+}
+
 
 nav
 {
